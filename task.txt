@@ -1,0 +1,13 @@
+The task is about refactoring: at some point we had to get rid of UIAlertView
+which was used all around our code base. We are interested to see how you would 
+have done it, considering that we would like to: 
+
+
+Replace UIAlertView with newer
+version from apple or any other library
+Have generic interface for that dialog, which we could later could be wired up to any third party AlertView on market, if the one you choose also gets deprecated
+Minimum changes in the calling class.
+
+
+Original code (see attachment) is in objective-c, but you are free to try to combine it with swift. Bonus points
+for clean code:)
